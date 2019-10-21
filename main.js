@@ -14,11 +14,19 @@ function addMeToStart(arry) {
 }
 
 function changeAllValuesTo(arry,num) {
-  a
+  index = 0 
+  while (index < arry.length){
+    arry[index] = num
+  }
 
+  index +=1
 }
 
-function oddOrEven() {
+function oddOrEven(arry) {
+  let index = 0 
+  while (index < arry.length){
+    arry[index] % 2 ===1 ? "odd":"even";
+  }
 
 }
 
