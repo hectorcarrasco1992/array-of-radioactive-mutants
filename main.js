@@ -26,11 +26,21 @@ function oddOrEven(arry) {
   let index = 0 
   while (index < arry.length){
     arry[index] % 2 ===1 ? "odd":"even";
+  
+    index +=1
   }
 
 }
 
-function changeNextThreeToValue() {
+function changeNextThreeToValue(arry,num,start) {
+  let index = start;
+  let count = 0;
+
+  while(i < arry.length && count < 3) {
+    arry[index] = num;
+    count++;
+    index++;
+  }
 
 }
 
