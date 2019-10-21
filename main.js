@@ -1,16 +1,20 @@
-function changeLast() {
+function changeLast(arry,num) {
+  arry[arry.length -1] = num
 
 }
 
-function addMeToEnd() {
+function addMeToEnd(arry) {
+  arry.push('Colin')
 
 }
 
-function addMeToStart() {
+function addMeToStart(arry) {
+  arry.unshift('Colin')
 
 }
 
-function changeAllValuesTo() {
+function changeAllValuesTo(arry,num) {
+  a
 
 }
 
