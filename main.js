@@ -22,15 +22,16 @@ function changeAllValuesTo(arry,num) {
   index +=1
 }
 
-function oddOrEven(arry) {
-  let index = 0 
-  while (index < arry.length){
-    arry[index] % 2 ===1 ? "odd":"even";
+ function oddOrEven(arry) {
+   let index = 0 
+   while (index < arry.length){
+    if (arry[index] % 2 === 1){arry[index] = 'odd'}
+      else {arry[index] = 'even'}
   
-    index +=1
+    index += 1
   }
 
-}
+ }
 
 function changeNextThreeToValue(arry,num,start) {
   let index = start;
